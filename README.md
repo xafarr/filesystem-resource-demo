@@ -1,0 +1,3 @@
+**Problem Explanation:**
+
+I am converting one of the old spring application to latest Spring Boot and converting XML configs to Java Config. I came across this problem that if I configure my bean in xml and set the file resource in there then path is parsed correct. But when I do the same in Java config then path is parsed wrong. I have created exact same tests for both type of configs but when bean is created through java config then test fails. If its a bug I would like to contribute to Spring as a first timer. Thanks for your time.
